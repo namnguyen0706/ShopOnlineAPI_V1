@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnlineAPI.Service", "Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnlineAPI.Web", "ShopOnlineAPI.Web\ShopOnlineAPI.Web.csproj", "{AC4A10D4-AC8C-4688-BAC1-754BA1528DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnlineAPI.UnitTest", "ShopOnlineAPI.UnitTest\ShopOnlineAPI.UnitTest.csproj", "{2B728CE1-C43A-4E92-AEC7-2B316F3E9D18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnlineAPI.UnitTest", "ShopOnlineAPI.UnitTest\ShopOnlineAPI.UnitTest.csproj", "{C3523FDD-2B59-4A63-92FB-FBF9C08225E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{AC4A10D4-AC8C-4688-BAC1-754BA1528DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4A10D4-AC8C-4688-BAC1-754BA1528DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC4A10D4-AC8C-4688-BAC1-754BA1528DB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B728CE1-C43A-4E92-AEC7-2B316F3E9D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B728CE1-C43A-4E92-AEC7-2B316F3E9D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B728CE1-C43A-4E92-AEC7-2B316F3E9D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B728CE1-C43A-4E92-AEC7-2B316F3E9D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3523FDD-2B59-4A63-92FB-FBF9C08225E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3523FDD-2B59-4A63-92FB-FBF9C08225E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3523FDD-2B59-4A63-92FB-FBF9C08225E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3523FDD-2B59-4A63-92FB-FBF9C08225E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
