@@ -13,7 +13,7 @@ namespace ShopOnlineAPI.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201904240244509_InitialDB"; }
+            get { return "201905020400424_InitialDB"; }
         }
         
         string IMigrationMetadata.Source

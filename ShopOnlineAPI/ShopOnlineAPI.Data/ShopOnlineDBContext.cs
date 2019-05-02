@@ -1,10 +1,5 @@
 ﻿using ShopOnlineAPI.Model.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopOnlineAPI.Data
 {
@@ -35,11 +30,10 @@ namespace ShopOnlineAPI.Data
         public DbSet<Tag> Tags { set; get; }
 
         public DbSet<Visitorstatistic> Visitorstatistics { set; get; }
-
+        public DbSet<Error> Errors { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-
         }
     }
 }
