@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopOnlineAPI.Web.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +16,7 @@ namespace ShopOnlineAPI.Web
         {
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutoMapper.Mapper.Initialize(cfg => cfg.AddProfile<AutoMappingConfiguration>());
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
